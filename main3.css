@@ -1,0 +1,11 @@
+.element {
+    height: 100px;
+    width: 100px;
+    background-color: #0997d3;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+
+.element:hover {
+    transform: translate(100%,0)
+}
